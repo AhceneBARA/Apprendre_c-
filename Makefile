@@ -5,7 +5,7 @@ output: main.o Television.o
 main.o: main.cpp
 	g++ -c main.cpp
 
-message.o: Television.cpp Television.h
+Television.o: Television.cpp Television.h
 	g++ -c Television.cpp
 
 clean: 
